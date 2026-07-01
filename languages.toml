@@ -1,0 +1,11 @@
+[[language]]
+name = "nbcl"
+scope = "source.nbcl"
+injection-regex = "nbcl"
+file-types = ["nbcl"]
+comment-token = "#"
+roots = []
+
+[[grammar]]
+name = "nbcl"
+source = { git = "https://github.com/nbcl-lang/tree-sitter-nbcl", rev = "HEAD" }
