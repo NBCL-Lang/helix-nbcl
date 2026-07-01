@@ -7,7 +7,7 @@
   (map)
 ] @indent
 
-; Align matching closing brackets with the opening statement line
+; Align matching closing brackets
 "}" @outdent
 "]" @outdent
 ")" @outdent
